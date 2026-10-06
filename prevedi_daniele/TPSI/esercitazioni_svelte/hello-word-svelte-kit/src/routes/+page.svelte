@@ -13,11 +13,11 @@
 			<enhanced:img class="welcome-image" src="#lib/images/svelte-welcome.png" alt="Welcome" />
 		</span>
 
-		to your new<br />SvelteKit app
+		alla tua nuova<br />applicazione SvelteKit
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		prova a editare il file <strong>src/routes/+page.svelte</strong>
 	</h2>
 
 	<Counter />

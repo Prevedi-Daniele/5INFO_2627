@@ -13,7 +13,7 @@
 		</nav>
 
 		<article>
-			<p>Main content goes here</p>
+			<slot />
 		</article>
 	</section>
 

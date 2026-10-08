@@ -1,12 +1,12 @@
 <main>
 	<header>
-		<h1>Web App</h1>
+		<h1><a href="/">Web App</a></h1>
 	</header>
 
 	<section>
 		<nav>
 			<ul>
-				<li><a href="#">Chi sono</a></li>
+				<li><a href="/chi_sono">Chi sono</a></li>
 				<li><a href="#">Counter</a></li>
 				<li><a href="#">About</a></li>
 			</ul>

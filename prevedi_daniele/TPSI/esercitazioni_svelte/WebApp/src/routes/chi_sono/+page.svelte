@@ -3,3 +3,4 @@
 </script>
 
 <WhoAmI nome = "Daniele" cognome = "Prevedi" eta = 18/>
+<WhoAmI/>

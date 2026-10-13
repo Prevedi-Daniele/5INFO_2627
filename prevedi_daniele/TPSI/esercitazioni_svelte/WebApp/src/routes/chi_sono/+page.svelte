@@ -1,1 +1,5 @@
-<h1>Pagina: Chi Sono</h1>
+<script>
+    import WhoAmI from "#lib/components/who_am_i.svelte";
+</script>
+
+<WhoAmI/>

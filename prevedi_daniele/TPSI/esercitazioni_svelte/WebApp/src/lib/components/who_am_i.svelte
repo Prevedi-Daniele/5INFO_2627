@@ -2,7 +2,7 @@
     export let nome = "Mario";
     export let cognome = "Rossi";
     export let eta = 20;
-    let url = "https://agnelli.it/wp-content/uploads/2025/02/Logo_Salesiani_Torino_Agnelli_light-300x138.png"
+    export let url;
 </script>
 
 <h1>Ciao io sono {nome} {cognome}, ho {eta} anni</h1>

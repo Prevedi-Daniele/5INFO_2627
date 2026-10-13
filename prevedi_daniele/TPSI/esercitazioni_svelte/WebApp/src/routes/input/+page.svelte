@@ -1,5 +1,5 @@
 <script>
-    let nome, cognome, eta
+    let nome, cognome, eta, residenza
     let confermato
 </script>
 
@@ -8,6 +8,7 @@
 Nome <input bind:value={nome}>
 Cognome <input bind:value={cognome}>
 Età <input bind:value={eta}>
+Residenza <input bind:value={residenza}>
 
 <br><br>
 
@@ -15,7 +16,7 @@ Confermato <input type="checkbox" bind:checked={confermato}>
 
 <br><br>
 
-Io sono {nome} {cognome} ed ho {eta} anni
+Io sono {nome} {cognome} ed ho {eta} anni e abito a {residenza}
 
 <br><br>
 

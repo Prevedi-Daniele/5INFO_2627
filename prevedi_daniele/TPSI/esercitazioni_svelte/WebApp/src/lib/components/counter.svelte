@@ -5,11 +5,19 @@
 
 <script>
     export let counter = 0;
+
+    function counter_increment(){
+        counter++;
+    }
+
+    function counter_decrement(){
+        counter--;
+    }
 </script>
 
 <div class="container">
     <div class="pulsante">
-        <button>
+        <button on:click={counter_decrement}>
             <span class="material-symbols-outlined icon">remove</span>
         </button>
     </div>
@@ -17,7 +25,7 @@
         {counter}
     </div>
     <div class="pulsante">
-        <button>
+        <button on:click={counter_increment}>
             <span class="material-symbols-outlined icon">add</span>
         </button>
     </div>

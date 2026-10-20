@@ -14,12 +14,15 @@
 
 {#if valoreDoppio < 5}
     <h3 class="rosso">Valore DoubleCounter {valoreDoppio}</h3>
-{:else}
+{:else if valoreDoppio > 10}
     <h3 class="verde">Valore DoubleCounter {valoreDoppio}</h3>
+{:else}
+    <h3 class="arancione">Valore DoubleCounter {valoreDoppio}</h3>
 {/if}
 
 
 <style>
     .rosso{color: red;}
     .verde{color: green;}
+    .arancione{color: orange}
 </style>

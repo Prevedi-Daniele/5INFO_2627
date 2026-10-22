@@ -5,7 +5,11 @@
     let valoreSingolo = 127
     let valoreDoppio = 0
     let numeri = [3, 7, 19, 34, 15, 12, 5]
-    let sottolineato = false
+    let sottolineato
+    $: sottolineato = valoreDoppio == 7 ? true : false 
+
+    let doppio
+    $: doppio = valoreDoppio / 2 // Questo viene eseguito ogni volta che viene modificato il valore di valoreSingolo
 </script>
 
 <!--  chiamata di esempio con valore di partenza diverso da quello di default (definito nel componente) -->

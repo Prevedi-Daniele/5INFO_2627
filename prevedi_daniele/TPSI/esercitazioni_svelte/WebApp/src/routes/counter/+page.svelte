@@ -5,6 +5,7 @@
     let valoreSingolo = 127
     let valoreDoppio = 0
     let numeri = [3, 7, 19, 34, 15, 12, 5]
+    let sottolineato = false
 </script>
 
 <!--  chiamata di esempio con valore di partenza diverso da quello di default (definito nel componente) -->
@@ -21,6 +22,10 @@
     <h3 class="arancione">Valore DoubleCounter {valoreDoppio}</h3>
 {/if}
 
+<h2 class:sottolineato>
+    Il valore del contatore vale {valoreSingolo}
+</h2>
+
 
 <ul>
     {#each numeri as numero, indice}
@@ -32,4 +37,5 @@
     .rosso{color: red;}
     .verde{color: green;}
     .arancione{color: orange}
+    .sottolineato{text-decoration: underline;}
 </style>

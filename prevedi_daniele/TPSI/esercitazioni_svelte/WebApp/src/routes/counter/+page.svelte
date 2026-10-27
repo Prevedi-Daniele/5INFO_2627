@@ -10,10 +10,14 @@
 
     let doppio
     $: doppio = valoreDoppio / 2 // Questo viene eseguito ogni volta che viene modificato il valore di valoreSingolo
+
+    function gestisci_evento(evento){
+        alert(`${evento.detail.tipo} con valore ${evento.detail.valore}`)
+    }
 </script>
 
 <!--  chiamata di esempio con valore di partenza diverso da quello di default (definito nel componente) -->
-<Counter bind:counter={valoreSingolo} />
+<Counter bind:counter={valoreSingolo} on:contatore={gestisci_evento}/>
 <DoubleCounter bind:counter={valoreDoppio}/>
 
 <h3>Valore SingleCounter {valoreSingolo}</h3>

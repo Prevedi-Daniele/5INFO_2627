@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Dropdown from "#lib/components/dropdown.svelte";
+</script>
+
+<h1>DROP DOWN TESTER</h1>
+
+<Dropdown titolo="Regione" elencoItem={["Piemonte", "Lombardia", "Lazio", "Liguria", "Puglia"]} isStatoMenuOpen={false}/>
+<Dropdown titolo="Città" elencoItem={["Torino", "Milano", "Roma", "Genova"]} isStatoMenuOpen={false}/>
+<Dropdown titolo="Nazione" elencoItem={["Italia", "Francia", "Germania", "Olanda"]} isStatoMenuOpen={false}/>

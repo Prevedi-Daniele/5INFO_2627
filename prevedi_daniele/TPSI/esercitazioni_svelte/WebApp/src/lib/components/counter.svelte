@@ -5,17 +5,20 @@
 
 <script>
     import { createEventDispatcher } from "svelte";
+    import { store_counter } from "#lib/js/store.js";
 
-    const ub = createEventDispatcher()
+    const dispatch = createEventDispatcher()
     export let counter = 0
 
     function counter_increment(){
         counter += 1
+        $store_counter = counter
         emit_event("increment")
     }
 
     function counter_decrement(){
         counter -= 1
+        $store_counter = counter
         emit_event("decrement")
     }
 

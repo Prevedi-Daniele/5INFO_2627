@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-npx sv@1.1.1 create --template minimal --no-types --install npm svelteKit_dropdown
+npx sv@1.1.1 create --template minimal --no-types --install npm dropdown
 ```
 
 ## Adding features

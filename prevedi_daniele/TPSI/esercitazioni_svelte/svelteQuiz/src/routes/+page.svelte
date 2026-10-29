@@ -1,7 +1,7 @@
 <script>
     import GestoreQuiz from "#lib/components/gestoreQuiz.svelte";
 
-    let domandeQuiz = [
+    let arrayDomandeQuiz = [
         {
             domanda: "In Svelte 4, come si dichiara una prop in un componente?",
             risposte: {
@@ -23,4 +23,4 @@
     ]
 </script>
 
-<GestoreQuiz domandeQuiz={domandeQuiz} />
+<GestoreQuiz domandeQuiz={arrayDomandeQuiz} />

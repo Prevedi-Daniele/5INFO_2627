@@ -51,5 +51,4 @@
 
 {#if lastNazioneClicked}
     <h1>Ultima nazione selezionata: {lastNazioneClicked}</h1>
-    
 {/if}
